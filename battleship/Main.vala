@@ -27,7 +27,7 @@ public class Battleship.Main : GLib.Object {
 		println("Make your choice: ");
 		
 		while (true) {
-			string choice = stdin.read_line();
+			string choice = (!)(stdin.read_line() ?? "");
 			
 			if (choice in valid_choices) {
 				return choice;

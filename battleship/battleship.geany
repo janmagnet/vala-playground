@@ -1,4 +1,3 @@
-
 [file_prefs]
 final_new_line=true
 ensure_convert_new_lines=false
@@ -15,7 +14,9 @@ indent_mode=2
 
 [project]
 name=battleship
-base_path=/home/pi/projects/battleship/
+base_path=/home/pi/projects/vala-playground/battleship/
+description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
@@ -23,9 +24,18 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=180;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fbattleship%2FMain.vala;0;4
-FILE_NAME_1=17;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fbattleship%2FMainMenu.vala;0;4
-FILE_NAME_2=17;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fbattleship%2FScreen.vala;0;4
+FILE_NAME_0=371;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Fbattleship%2FMain.vala;0;4
+FILE_NAME_1=0;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Fbattleship%2FMainMenu.vala;0;4
+FILE_NAME_2=0;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Fbattleship%2FScreen.vala;0;4
 
 [VTE]
 last_dir=/home/pi
+
+[build-menu]
+ValaFT_01_LB=_Build
+ValaFT_01_CM=valac --enable-experimental-non-null -o battleship *.vala
+ValaFT_01_WD=
+filetypes=Vala;
+ValaFT_00_LB=_Compile
+ValaFT_00_CM=valac --enable-experimental-non-null -c -o battleship *.vala
+ValaFT_00_WD=
