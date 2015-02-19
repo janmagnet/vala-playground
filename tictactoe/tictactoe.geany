@@ -15,7 +15,7 @@ indent_mode=2
 
 [project]
 name=tictactoe
-base_path=/home/pi/projects/tictactoe/
+base_path=/home/pi/projects/vala-playground/tictactoe/
 description=
 file_patterns=
 
@@ -25,18 +25,17 @@ long_line_column=72
 
 [files]
 current_page=2
-FILE_NAME_0=198;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Ftictactoe%2FMain.vala;0;4
-FILE_NAME_1=297;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Ftictactoe%2FScreen.vala;0;4
-FILE_NAME_2=680;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Ftictactoe%2FMainMenu.vala;0;4
-FILE_NAME_3=444;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Ftictactoe%2FScreenManager.vala;0;4
-FILE_NAME_4=0;None;0;16;1;1;0;%2Fhome%2Fpi%2Fdevenv-setup.txt;0;4
+FILE_NAME_0=198;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Ftictactoe%2FMain.vala;0;4
+FILE_NAME_1=297;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Ftictactoe%2FScreen.vala;0;4
+FILE_NAME_2=680;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Ftictactoe%2FMainMenu.vala;0;4
+FILE_NAME_3=444;Vala;0;16;1;1;0;%2Fhome%2Fpi%2Fprojects%2Fvala-playground%2Ftictactoe%2FScreenManager.vala;0;4
 
 [VTE]
 last_dir=/home/pi
 
 [build-menu]
 ValaFT_00_LB=_Compile
-ValaFT_00_CM=./compile.sh
+ValaFT_00_CM=./build.sh -c
 ValaFT_00_WD=
 ValaFT_01_LB=_Build
 ValaFT_01_CM=./build.sh
